@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <g id="my" transform="translate(-33 -38)">
+    <rect id="사각형_89" data-name="사각형 89" width="28" height="28" transform="translate(33 38)" fill="rgba(48,0,0,0)"/>
+    <g id="_-System-Icons" data-name="🔍-System-Icons" transform="translate(31 38)">
+      <g id="ic_fluent_person_48_filled" transform="translate(8 4)">
+        <path id="_-Color" data-name="🎨-Color" d="M21.875,16A2.125,2.125,0,0,1,24,18.021l0,.1V18.5a4.764,4.764,0,0,1-2.46,4.19A10.8,10.8,0,0,1,16,24a10.8,10.8,0,0,1-5.54-1.31A4.769,4.769,0,0,1,8,18.669L8,18.5v-.376A2.125,2.125,0,0,1,10.022,16l.1,0ZM16,4a5,5,0,1,1-5,5A5,5,0,0,1,16,4Z" transform="translate(-8 -4)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

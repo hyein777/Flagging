@@ -1,0 +1,206 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+header{
+    height: 56px;
+    width: 100%;
+    background-color: #000070;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+header > #back {
+    margin-left: 16px;
+    margin-top: 14px;
+}
+header > #header_icon{
+    margin-left: 16px;
+}
+header > #header_title{
+    color: white;
+    font-family: 'EliceDigitalBaeum_Bold';
+    font-size: 18px;
+    margin-left: 28px;
+}
+
+#map {
+    height: 180px;
+    width: 100%;
+    background-color: gray;
+}
+
+
+#countDown_num {
+    width: 56%;
+    text-align: center;
+    font-family: "EliceDigitalBaeum_Bold";
+    font-size: 15px;
+    color: white;
+}
+
+#countDown_info {
+    width: 97px;
+    height: 131px;
+    text-align: center;
+    font-family: 'Pretendard'; 
+    font-weight: 800;
+    font-size: 15px;
+}
+
+#countDown {
+    height: 44px;
+    line-height: 44px;
+    background-color: #FFCF00;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#myCourse {
+    height: 44px;
+    background-color: #000070;
+    line-height: 44px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#myCourse_info {
+padding-left: 16px;
+color: white;
+
+}
+
+/* 티켓 리스트 */
+#contents {
+    margin: 0 auto;
+    overflow: scroll;
+    scrollbar-width: none; /*파이어폭스 스크롤바 가리기*/
+    height: calc(100vh - 324px);
+}
+
+#contents::-webkit-scrollbar { /*크롬 등 스크롤바 가리기*/
+    display: none;
+}
+
+
+/* 티켓바 */
+.ticket_bar {
+    max-width: 235px;
+    height: 34px;
+    line-height: 34px;
+    padding-left: 50px;
+    color: white;
+    background-repeat: no-repeat;
+}
+
+
+/* 티켓바 종류 */
+.spot {
+    background-image:url(../src/img/spot_ticketBar.svg);
+}
+
+.cafe {
+    background-image:url(../src/img/cafe_ticketBar.svg);
+}
+
+.cafeteria {
+    background-image: url(../src/img/cafeteria_ticketBar.svg);
+}
+
+.hotel {
+    background-image:url(../src/img/Hotel_ticketBar.svg);
+}
+
+.institutions {
+    background-image:url(../src/img/institutions_ticketBar.svg);
+}
+
+
+
+.ticket_cont {
+    background-color: #EFEFEF;
+    border-radius: 0 0 10px 10px;
+    width: 235px;
+    height: 106px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ticket_img {
+    width: 80px;
+    height: 80px;
+    border-radius: 4px;
+    background-color: white;
+    margin-inline: 8px;
+}
+
+.ticket {
+    display: flex;
+    margin: 0 auto;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.ticket:first-child {
+    margin-top: 20px;
+}
+
+.ticket:last-child {
+    margin-bottom: 20px;
+}
+
+.ticket_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 8px;
+    width: 131px;
+    height: 80px;
+}
+
+.ticket_deepInfo {
+    width: 90px;
+    height: 24px;
+    background-color: white;
+    border-radius: 16px;
+    text-align: center;
+    line-height: 24px;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Pretendard'; 
+    font-weight: 700;
+    margin-top: 4px;
+}
+
+.ticket_address {
+    font-size: 14px;
+    width: 131px;
+    font-family: 'Pretendard'; 
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+.ticket_callnum {
+    font-size: 14px;
+    width: 131px;
+    font-family: 'Pretendard'; 
+    font-weight: 300;
+}
+
+.info_line {
+    height: 38px;
+}
+
+/* QR스캔 버튼 */
+.QRscan {
+    width: 64px;
+    height: 70px;
+}
+
+.kakaonavi {
+    width: 64px;
+    height: 70px;
+}
+

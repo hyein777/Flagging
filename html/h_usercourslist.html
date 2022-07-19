@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usercourselist</title>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/h_usercourselist.css">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/usercourselist.css">
+
+    <!-- 20220610_yhlee 닷홈 주소 및 토근을 팀원에 맞게 적용 및 필요한 공통 함수 선언을 위해 추가 -->
+    <script src="../js/util_Function.js"></script>
+    <script src="../js/php.js"></script>
+    <script src="../js/usercourselist.js"></script>
+</head>
+
+<body>
+    <div id='wrap'>
+        <!-- 상단바 -->
+        <header>
+            <div id="header_img">
+                <img id="back" src="../src/icon/backBt_white.svg" alt="'backbt">
+            </div>
+            <div id="header_title">내 코스 목록</div>
+        </header>
+        <!-- 지도 삽입 -->
+        <div class="map_wrap">
+            <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+            <button id="user_location"><img src="../src/usercourse/user-location-fill.svg" alt="user_location"></button>
+        </div>
+        <!-- 만들어둔 목록 -->
+        <div id="CourseList">
+            <p>만들어둔 코스 목록</p>
+        </div>
+        <!-- 코스 목록 -->
+        <div id="detail_course_list"></div>
+    </div>
+    <script>
+        $("#header_img").on("click", function(){
+            window.location.href = "index.html";
+            // history.back();
+        })
+    </script>
+</body>
+
+</html>

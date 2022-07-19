@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR스캔</title>
+    <link rel="stylesheet" href="../css/font.css">
+
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    
+    <!-- 20220610_yhlee 닷홈 주소 및 토근을 팀원에 맞게 적용 및 필요한 공통 함수 선언을 위해 추가 -->
+    <script src="../js/util_Function.js"></script>
+    <script src="../js/php.js"></script>
+
+    <script src = "../js/QR/jsQR.js"></script>
+    <script src="../js/QR/qr_script.js"></script>
+
+    <style>
+    *{ margin: 0; padding: 0; box-sizing: border-box;}
+
+    header{
+        height: 56px;
+        width: 100%;
+        background-color: #000070;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    header > #back {
+        margin-left: 16px;
+        margin-top: 14px;
+    }
+    header > #header_icon{
+        margin-left: 16px;
+    }
+    header > #header_title{
+        color: white;
+        font-family: 'EliceDigitalBaeum_Bold';
+        font-size: 18px;
+        margin-left: 28px;
+    }
+
+    #camera_place {
+        margin: 0 auto;
+        margin-top: 20px;
+        background-color: #EEEEEE;
+        width : 270px;
+        height : 270px;
+    }
+
+    #QRread{
+        font-size: 15px;
+        margin-top: 14px;
+        text-align: center;
+    }
+
+    #canvas {
+          width: 100%;
+          height: 100%;
+        }
+    </style> 
+</head>
+<body>
+    <!-- 상단바 -->
+    <header>
+        <div id="header_icon">
+            <img id="back" src="../src/icon/backBt_white.svg">
+        </div>
+        <div id="header_title">QR스캔</div>
+    </header>
+    <div id="contents">
+        <div id="camera_place">
+            <canvas id="canvas" hidden></canvas>
+        </div>
+        <div id="QRread">QR코드를 상자 안에 모두 들어오게 비춰주세요.</div>
+    </div>
+</body>
+</html>

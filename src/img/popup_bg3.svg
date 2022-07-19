@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="235" height="34" viewBox="0 0 235 34">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #00bdc4;
+      }
+
+      .cls-2 {
+        fill: #1a1a1a;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        fill: #c9fdff;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="패스_79" data-name="패스 79" class="cls-1" d="M10,0H46.29L24,34H0V10A10,10,0,0,1,10,0Z"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_350" data-name="그룹 350" transform="translate(-1255 -714)">
+    <path id="사각형_285" data-name="사각형 285" class="cls-2" d="M10,0H225a10,10,0,0,1,10,10V34a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(1255 714)"/>
+    <path id="패스_252" data-name="패스 252" class="cls-1" d="M10,0H46.29L24,34H0V10A10,10,0,0,1,10,0Z" transform="translate(1255 714)"/>
+    <g id="그룹_336" data-name="그룹 336" transform="translate(-415 93)">
+      <g id="마스크_그룹_10" data-name="마스크 그룹 10" class="cls-3" transform="translate(1670 621)">
+        <g id="cup-fill" transform="translate(4.06 1.255)">
+          <path id="패스_77" data-name="패스 77" class="cls-4" d="M0,0H38.809V38.809H0Z"/>
+          <path id="패스_78" data-name="패스 78" class="cls-5" d="M6.609,3H29.651a3.02,3.02,0,0,1,3.072,2.965v4.447a3.02,3.02,0,0,1-3.072,2.965H26.579v4.447a6.04,6.04,0,0,1-6.145,5.929H11.217a6.04,6.04,0,0,1-6.145-5.929V4.482A1.51,1.51,0,0,1,6.609,3Zm19.97,2.965v4.447h3.072V5.965ZM2,26.717H29.651v2.965H2Z" transform="translate(2.043 3.064)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

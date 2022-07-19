@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>선물상자 열기</title>
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/pointGet.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <!-- 20220610_yhlee 닷홈 주소 및 토근을 팀원에 맞게 적용 및 필요한 공통 함수 선언을 위해 추가 -->
+    <script src="../js/util_Function.js"></script>
+    <script src="../js/php.js"></script>
+    <!--마일리지 상자 열기 -->
+    <script src="../js/pointGet.js"></script>
+</head>
+<body>
+    <header>
+        <div id="header_icon">
+            <img id="back" src="../src/icon/backBt_white.svg">
+        </div>
+        <div id="header_title">선물상자 열기</div>
+    </header>
+
+    <div id="contents">
+        <!--상자 뽑기-->
+        <div id="notOpen">
+            <img id="boxInfo" src="../src/img/pointBox_Info.svg">
+            <img id="box_openBt" src="../src/img/pointBox_notOpen.svg">
+        </div>
+        
+
+        <!--상자 열기-->
+        <div id="boxOpen">
+            <object id="pointBox_ani" type="image/svg+xml" data="../src/img/pointBox_ani.svg" width="222px"></object>
+        </div>
+
+    </div>
+
+    <!--마일리지 알림창 (배경)-->
+    <div id="mileAlert"> 
+        <!--모달 감싸기-->
+        <div id="mileModal">
+            <!--뽑힌 마일리지 액수 알림-->
+            <div id="youGetMile">
+                <div id="howMile">3,000</div>
+            </div>
+            <!--마일리지 확인 버튼 (오류시 대비해 누르지 않아도 적립됨 단순 확인용)-->
+            <div id="mileGetBt">
+                <img id="mileGet" src="../src/img/mileGet.svg">
+            </div>
+        </div>
+    </div>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg id="arrow-down-s-line" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="패스_126" data-name="패스 126" class="cls-1" d="M0,0H24V24H0Z"/>
+  <path id="패스_127" data-name="패스 127" class="cls-2" d="M12,13.172l4.95-4.95,1.414,1.414L12,16,5.636,9.636,7.05,8.222Z"/>
+</svg>

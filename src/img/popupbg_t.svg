@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="235" height="140" viewBox="0 0 235 140">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #efefef;
+      }
+    </style>
+  </defs>
+  <g id="그룹_333" data-name="그룹 333" transform="translate(-11 -367)">
+    <path id="패스_248" data-name="패스 248" class="cls-1" d="M10,0H225a10,10,0,0,1,10,10V130a10,10,0,0,1-10,10H10A10,10,0,0,1,0,130V10A10,10,0,0,1,10,0Z" transform="translate(11 367)"/>
+    <path id="빼기_4" data-name="빼기 4" class="cls-1" d="M-1631,115h0V85a14.9,14.9,0,0,1,10.606,4.393A14.9,14.9,0,0,1-1616,100a14.9,14.9,0,0,1-4.393,10.607A14.9,14.9,0,0,1-1631,115Z" transform="translate(1642 337)"/>
+  </g>
+</svg>

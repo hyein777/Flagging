@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="253" height="170" viewBox="0 0 253 170">
+  <defs>
+    <filter id="합치기_10" x="0" y="0" width="253" height="170" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="패스_261" data-name="패스 261" d="M10,0H46.29L24,34H0V10A10,10,0,0,1,10,0Z" transform="translate(1610 767.069)" fill="#64c37d"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_338" data-name="그룹 338" transform="translate(-1522 -829)">
+    <g transform="matrix(1, 0, 0, 1, 1522, 829)" filter="url(#합치기_10)">
+      <path id="합치기_10-2" data-name="합치기 10" d="M110.5,140H10A10,10,0,0,1,0,130V10A10,10,0,0,1,10,0H225a10,10,0,0,1,10,10V130a10,10,0,0,1-10,10H125.5L118,152Z" transform="translate(9 3)" fill="#efefef"/>
+    </g>
+    <path id="사각형_285" data-name="사각형 285" d="M10,0H225a10,10,0,0,1,10,10V34a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(1531 832)" fill="#1a1a1a"/>
+    <path id="패스_252" data-name="패스 252" d="M10,0H46.29L24,34H0V10A10,10,0,0,1,10,0Z" transform="translate(1531 832)" fill="#64c37d"/>
+    <g id="마스크_그룹_24" data-name="마스크 그룹 24" transform="translate(-79 64.931)" clip-path="url(#clip-path)">
+      <g id="government-fill" transform="translate(1615.834 770.069)">
+        <path id="패스_259" data-name="패스 259" d="M0,0H36.737V36.737H0Z" fill="none"/>
+        <path id="패스_260" data-name="패스 260" d="M2.5,25.45V10.016H1V7.209H5.488V4.4A1.452,1.452,0,0,1,6.984,3H27.926a1.452,1.452,0,0,1,1.5,1.4V7.209H33.91v2.806h-1.5V25.45h1.5v2.806H1V25.45Zm16.455,0V15.628H15.959V25.45Zm-7.48,0V15.628H8.48V25.45Zm14.959,0V15.628H23.439V25.45ZM8.48,5.806v1.4H26.43v-1.4Z" transform="translate(0.913 2.74)" fill="#deffc7"/>
+      </g>
+    </g>
+  </g>
+</svg>

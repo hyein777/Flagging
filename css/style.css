@@ -1,0 +1,493 @@
+
+
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 56px;
+    background: #000070;
+    position: relative;
+}
+body {
+    overflow-y: hidden;
+}
+
+#iconUser {
+    width: fit-content;
+    position: absolute;
+    left: 16px;
+    top: 25%;
+}
+
+#iconUser{
+    width: 28px;
+    height: 28px;
+    background: url(../src/img/my.svg);
+
+}
+
+#title {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 12px 0;
+}
+#title h2 {
+    font-family: 'HSSummer';
+    color: #FFCF00;
+}
+
+section {
+    width: 100%;
+}
+
+/* #Top 영역 */
+section #top {
+    height: 240px;
+    background: #FFCF00;
+}
+
+.topLine {
+    background:url(../src/img/topLine.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 100px;
+}
+
+.topWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    z-index: 2;
+    height: 100%;
+}
+
+.topUserImg{
+    margin: auto;
+    margin-top: 10px;
+}
+
+.topText {
+    margin: 0 auto;
+    margin-top: 114px;
+    height: fit-content;
+}
+.topText p {
+    font-family: 'GmarketSansBold';
+    font-size: 24px;
+}
+
+.topSelect {
+    position: absolute;
+    bottom: 41px;
+}
+
+#select {
+    width: 120px;
+    border-radius: 4px;
+}
+
+/*  #bot 영역 */
+#bot {
+    width: 100%;
+    height: 680px;
+    background: #000070;
+    position: relative;
+}
+
+/**********************************************
+********** 나만의 코스 만들기  *************
+**********************************************/
+
+.myCoss {
+    width: 100%;
+    height: 33%;
+    position: relative;
+} 
+
+.myCossbg {
+    width: 100%;
+    position: absolute;
+}
+
+.myCossContainer {
+    width: fit-content;
+    display: flex;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 12px;
+}
+.myCoss p {
+    font-family: 'EliceDigitalBaeum_Regular';
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.myCossContainer .arrow {
+    width: 24px;
+    height: 24px;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+
+.myCossContainer img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+/**********************************************
+********** 내 코스 목록 *********************
+**********************************************/
+
+.myCossList {
+    position: absolute;
+    display: flex;
+    left: 20%;
+    top: 29.5%;
+    z-index: 3;
+}
+.myCossList p {
+    font-family: 'EliceDigitalBaeum_Regular';
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.myCossList .arrow {
+    width: 24px;
+    height: 24px;
+    /* background: url(../src/img/arrow2.svg); */
+    margin-right: 8px;
+    margin-top: 6px;
+}
+
+.myCossList img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.myCossListManWrapper {
+    width: 100%;
+    position: relative;
+}
+.myCossListMan {
+    background: url(../src/img/yahoo_man.svg);
+    background-size: cover;
+    width: 50%;
+    height: 275px;
+    position: absolute;
+    z-index: 2;
+    right: 0;
+    top: -50px;
+}
+/**********************************************
+********** QR 스탬프 챌린지 ***************
+**********************************************/
+.stampChallenge {
+    width: 100%;
+    height: 33%;
+    color: white;
+    position: relative;
+}
+
+.stampChaalengebg {
+    width: 100%;
+    position: absolute;
+}
+
+.stampChallengeTextContainer {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    position: absolute;
+    top: 150px;
+    left: 12px;
+}
+
+.stampChallengeTextContainer p {
+    font-family: 'EliceDigitalBaeum_Regular';
+    font-size: 24px;            
+    cursor: pointer;
+}
+.stampChallengeTextContainer .arrow{
+    width: 24px;
+    height: 24px;
+    margin-top: 6px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.stampChallengeTextContainer .arrow img {
+    width: 100%;
+    height: 100%;
+}
+/* **********************************************
+
+*************** mypage 영역  ****************
+
+************************************************/
+#mypage {
+    position: absolute;
+    position: fixed;
+    right: 100%;
+    width: 100%;
+    height: 835px;
+    z-index: 10;
+    transition: 0.6s;
+}
+
+#mypage.move {
+    right: 0;
+}
+
+.mypageTitle {
+    background: #000070;
+    height: 56px;
+    display: flex;
+}
+
+.mypageTitleContainer {
+    margin-left: 15px;
+    
+}
+
+.mypageTitle > .arrow, .arrowBack {
+    width: 28px;
+    height: 28px;
+    margin-top: 13px;
+    background: url(../src/img/backbutton.svg);
+    margin-left: 13px;
+}
+
+.arrowBack {
+    display: none;
+}
+
+.mypageTitle h3 {
+    color: white;   
+    width: fit-content;
+    margin-left: 19px;
+    padding: 13px 0;
+    font-family: 'EliceDigitalBaeum_Bold';
+}
+
+.mypageContent {
+    background: #000030;
+    width: 100%;
+    height: 100%;
+}
+
+/* **********************************************
+
+*************** mypageUserinfo 영역  ****************
+
+************************************************/
+
+.mypageContentWrapper {
+    height: 130px;
+}
+
+.mypageUserinfo {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    margin: 0 44px;
+}
+
+.userInfoImgContainer {
+    position: relative;
+    flex: 5;
+    width: 66px;
+    height: 66px;
+    left: -25px;
+    top: 25px;
+}
+
+.userInfoImgContainer > div {
+    position: absolute;
+}
+
+.userInfoImgContainer > div:nth-child(1) {
+    /* background:url(../src/img/naver_icon.png); */
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    z-index:3;
+    left: -10px;
+    border-radius: 50%;
+}
+
+.userSNS img {
+    width:35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.userInfoImgContainer > div:nth-child(2) {
+    background:url(../src/img/profile.png);
+    /* background:url(../src/img/molru.gif); */
+    background-size: cover;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.userInfoImgContainer > div:nth-child(3) {
+    background:url(../src/img/camera.svg);
+    background-size: cover;
+    width: 35px;
+    height: 35px;
+    top: 60px;
+    left: 60px;
+    cursor: pointer;
+}
+
+/************************************************
+
+*************** userInfoText 영역  ************
+
+************************************************/
+
+.userInfoText {
+    width: fit-content;
+    color: white;
+    margin-top:  37px;
+    margin-left : 25px;
+    height: 48px;
+}
+
+.userInfoText01 {
+    display: flex;
+    font-family: Pretendard-Regular;
+    font-size: 18px;
+}
+
+.userInfoText01 p  {
+    font-size: 18px;
+    /* font-family:  Pretendard; */
+}
+
+.userInfoText02 {
+    display: flex;
+    margin-top: 7px;
+}
+
+.userMileage {
+    background: url(../src/img/mileage.svg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.userInfoText02 p {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.saveMileageText {
+    font-family: Pretendard-Light;
+}
+
+.saveMileage {
+    font-family: Pretendard-Bold;
+}
+
+/* **********************************************
+
+*************** mypageBtn 영역  ************
+
+************************************************/
+
+.mypageBtn {
+    display: flex;
+}
+
+.mypageBtn div {
+    width: 100%;
+}
+
+.mypageMileage button, .mypageLogout button{
+    width: 100%;
+    height: 40px;
+    cursor: pointer;
+}
+
+.mypageMileage button {
+    background: #FFCF00;
+    border: 1px solid #FFCF00;
+}
+
+.mypageLogout button {
+    background: #000070;
+    color: white;
+    border: 1px solid #000070;
+}
+
+.mypageBtn p {
+    font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* **********************************************
+
+*************** mileageSave 영역  ************
+
+************************************************/
+.click, .mileageH3.click {
+    display: none;
+}
+
+.mileageH3{
+    display: block;
+}
+
+.mileageText{
+    color: white;
+}
+
+.mileageText > p {
+    text-align: center;
+    padding : 18px 0 15px 0;
+}
+
+.mileageTextLine {
+    margin: 0 16px;
+    border: 1px solid white;
+}
+
+.mileageTextList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4px 16px;
+}
+
+.mileageTextList p {
+    
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+.mileageTextListDate {
+    flex:5;
+    
+}
+
+.mileageTextListPoint {
+    flex: 5;
+    text-align:right;
+}
+
+.mileageTextListClear {
+    width: 100%;
+}

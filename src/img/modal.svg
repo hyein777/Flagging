@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="280" height="276" viewBox="0 0 280 276">
+  <defs>
+    <filter id="사각형_221" x="0" y="0" width="280" height="276" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.361"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="modal" transform="translate(-20 -176)">
+    <g id="그룹_422" data-name="그룹 422">
+      <g transform="matrix(1, 0, 0, 1, 20, 176)" filter="url(#사각형_221)">
+        <rect id="사각형_221-2" data-name="사각형 221" width="250" height="246" rx="8" transform="translate(15 15)" fill="#000030"/>
+      </g>
+      <text id="진행중인_챌린지를_종료하시겠습니까_" data-name="진행중인 챌린지를
+종료하시겠습니까?" transform="translate(160 276)" fill="#fff" font-size="20" font-family="Pretendard-Medium, Pretendard" font-weight="500"><tspan x="-71.582" y="0">진행중인 챌린지를</tspan><tspan x="-74.131" y="24">종료하시겠습니까?</tspan></text>
+      <path id="qustion_yellow" d="M19,2A17,17,0,1,0,36,19,17.028,17.028,0,0,0,19,2Zm0,26.541a1.735,1.735,0,0,1,0-3.469,1.735,1.735,0,0,1,0,3.469Zm3.99-11.275a9.534,9.534,0,0,1-1.214,1.561c-.867,1.041-1.561,1.908-1.561,2.775a1.368,1.368,0,0,1-1.388,1.388A1.277,1.277,0,0,1,17.439,21.6c0-1.735,1.214-3.3,2.082-4.51A9.628,9.628,0,0,0,20.561,15.7a2.508,2.508,0,0,0,.347-1.214,2.109,2.109,0,0,0-2.082-2.082,2.239,2.239,0,0,0-2.082,2.082,1.368,1.368,0,0,1-1.388,1.388,1.1,1.1,0,0,1-1.214-1.214A4.849,4.849,0,0,1,19,9.806a4.743,4.743,0,0,1,4.857,4.857A5.161,5.161,0,0,1,22.99,17.265Z" transform="translate(141 209)" fill="#ffcf00"/>
+      <text id="챌린지는_1일_1회만_진행할_수_있으며_익일_자정_이후_재등록_가능합니다." data-name="챌린지는 1일 1회만 진행할 수 있으며
+익일 자정 이후 재등록 가능합니다." transform="translate(160 342)" fill="#fff" font-size="14" font-family="Pretendard-Thin, Pretendard" font-weight="200"><tspan x="-98.943" y="0">챌린지는 </tspan><tspan y="0" fill="#ffcf00" font-family="Pretendard-Medium, Pretendard" font-weight="500">1일 1회</tspan><tspan y="0">만 진행할 수 있으며</tspan><tspan x="-92.559" y="16">익일 자정 이후 재등록 가능합니다.</tspan></text>
+    </g>
+  </g>
+</svg>

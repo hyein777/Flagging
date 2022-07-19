@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="234" height="232" viewBox="0 0 234 232">
+  <defs>
+    <filter id="패스_37">
+      <feOffset dx="30" dy="30" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15" result="blur"/>
+      <feFlood flood-opacity="0.259" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="그룹_325" data-name="그룹 325" transform="translate(-43 -187)">
+    <path id="사각형_282" data-name="사각형 282" d="M10,0H224a10,10,0,0,1,10,10V232a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(43 187)" fill="#00003d"/>
+    <path id="패스_235" data-name="패스 235" d="M22.877,0H172.123A22.877,22.877,0,0,1,195,22.877V54.469a22.877,22.877,0,0,1-22.877,22.877H22.877A22.877,22.877,0,0,1,0,54.469V22.877A22.877,22.877,0,0,1,22.877,0Z" transform="translate(63 251.827)" fill="#ffcf00"/>
+    <g id="그룹_307" data-name="그룹 307" transform="translate(-16.8 123.554)">
+      <text id="마일리지_지급_완료" data-name="마일리지 지급 완료" transform="translate(176.8 235.446)" fill="#ffcf00" font-size="16" font-family="Pretendard-SemiBold, Pretendard" font-weight="600" letter-spacing="0.01em"><tspan x="-59.829" y="0">마일리지 지급 완료</tspan></text>
+    </g>
+    <text id="마일리지는_마이페이지에서_확인_가능합니다." data-name="마일리지는 마이페이지에서
+확인 가능합니다." transform="translate(160 388)" fill="#9e9e9e" font-size="14" font-family="Pretendard-Regular, Pretendard" letter-spacing="0.01em"><tspan x="-75.194" y="0">마일리지는 마이페이지에서</tspan><tspan x="-46.443" y="16">확인 가능합니다.</tspan></text>
+    <g id="그룹_310" data-name="그룹 310" transform="translate(-2999.82 916)">
+      <g id="그룹_306" data-name="그룹 306" transform="translate(3123.228 -705)">
+        <text id="축하합니다_" data-name="축하합니다!" transform="translate(0 21)" fill="#fff" font-size="22" font-family="Pretendard-SemiBold, Pretendard" font-weight="600" letter-spacing="0.01em"><tspan x="0" y="0">축하합니다!</tspan></text>
+      </g>
+      <g id="logo" transform="translate(3091.013 -704.129)">
+        <path id="패스_36" data-name="패스 36" d="M410.889,144.7a12.284,12.284,0,0,0-.832-4.455l-2.626,13.006A12.262,12.262,0,0,0,410.889,144.7Z" transform="translate(-386.053 -132.245)" fill="#010172"/>
+        <g data-type="innerShadowGroup">
+          <path id="패스_37-2" data-name="패스 37" d="M223.949,67.52a12.422,12.422,0,1,0,6.217,23.18l3.762-18.171A12.417,12.417,0,0,0,223.949,67.52Z" transform="translate(-211.522 -67.52)" fill="#010172"/>
+          <g transform="matrix(1, 0, 0, 1, -48.19, -24.87)" filter="url(#패스_37)">
+            <path id="패스_37-3" data-name="패스 37" d="M223.949,67.52a12.422,12.422,0,1,0,6.217,23.18l3.762-18.171A12.417,12.417,0,0,0,223.949,67.52Z" transform="translate(-163.33 -42.65)" fill="#fff"/>
+          </g>
+        </g>
+        <path id="패스_38" data-name="패스 38" d="M418.575,115.281a12.245,12.245,0,0,0-1.612-2.821l-.024.108a12.258,12.258,0,0,1,1.6,2.889Z" transform="translate(-394.536 -107.558)" fill="#fe6a64"/>
+        <path id="패스_39" data-name="패스 39" d="M385.146,129.385l2.626-13.006a12.259,12.259,0,0,0-1.6-2.889l-3.723,18A12.335,12.335,0,0,0,385.146,129.385Z" transform="translate(-363.77 -108.299)" fill="#fe6a64"/>
+        <path id="패스_40" data-name="패스 40" d="M215.064,117.98c.488,1.321,3.972,8.852,12.943,9.251,0,0,2.107-7.208,1.647-10.221h0c-.285,1.943-6.693,3.728-14.465.848a.1.1,0,0,0-.125.122Z" transform="translate(-214.678 -111.583)" fill="#ff7f00"/>
+        <path id="패스_41" data-name="패스 41" d="M287.34,192.1l5.145,2.114.463-1.718S289.18,192.059,287.34,192.1Z" transform="translate(-279.057 -178.512)" fill="#ff3600"/>
+        <path id="패스_42" data-name="패스 42" d="M301.3,107.2l2.591-12.435a22.175,22.175,0,0,0-14.634.806.719.719,0,0,0-.439.54L287.36,104.5S295.957,104.455,301.3,107.2Z" transform="translate(-278.944 -91.054)" fill="#ffcf00"/>
+      </g>
+    </g>
+  </g>
+</svg>

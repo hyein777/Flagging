@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53.578" height="39.194" viewBox="0 0 53.578 39.194">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #64c37d;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #deffc7;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="패스_269" data-name="패스 269" class="cls-1" d="M811.007,524.13H790.849s-7.72-.632-7.854-8.619,0-22.828,0-22.828.4-7.554,7.854-7.687,45.665,0,45.665,0Z" transform="translate(39.945 906.507)"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_364" data-name="그룹 364" transform="translate(-822.881 -1391.444)">
+    <path id="패스_32" data-name="패스 32" class="cls-1" d="M811.007,524.13H790.849s-7.72-.632-7.854-8.619,0-22.828,0-22.828.4-7.554,7.854-7.687,45.665,0,45.665,0Z" transform="translate(39.945 906.507)"/>
+    <g id="마스크_그룹_30" data-name="마스크 그룹 30" class="cls-2">
+      <g id="government-fill" transform="translate(830.326 1394.902)">
+        <path id="패스_113" data-name="패스 113" class="cls-3" d="M0,0H42.348V42.348H0Z"/>
+        <path id="패스_114" data-name="패스 114" class="cls-4" d="M2.724,28.88V11.087H1V7.852H6.173V4.617A1.674,1.674,0,0,1,7.9,3H32.04a1.674,1.674,0,0,1,1.724,1.617V7.852h5.173v3.235H37.213V28.88h1.724v3.235H1V28.88Zm18.969,0V17.557H18.244V28.88Zm-8.622,0V17.557H9.622V28.88Zm17.244,0V17.557H26.866V28.88ZM9.622,6.235V7.852H30.315V6.235Z" transform="translate(1.206 3.617)"/>
+      </g>
+    </g>
+  </g>
+</svg>

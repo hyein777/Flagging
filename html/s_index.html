@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/font.css">
+    <link rel="stylesheet" href="../css/s_style.css">
+    <link rel="stylesheet" href="../css/ss_style.css">
+    <title>QR 스탬프 챌린지</title>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+
+    <!-- 20220610_yhlee 닷홈 주소 및 토근을 팀원에 맞게 적용 및 필요한 공통 함수 선언을 위해 추가 -->
+    <script src="../js/util_Function.js"></script>
+    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+    <script src="../js/php.js"></script>
+    <script src="../js/s_index.js"></script>
+</head>
+<body>
+    <div id='wrap'>
+        <!-- 상단바 -->
+        <header>
+            <div id="header_img">
+                <img id="back" src="../src/icon/backBt_white.svg" alt="'backbt">
+            </div>
+            <div id="header_title">QR 스탬프 챌린지</div>
+        </header>
+        <!-- 지도 삽입 -->
+        <div class="map_wrap">
+            <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+            <button id="user_location"><img src="../src/usercourse/user-location-fill.svg" alt="user_location"></button>
+        </div>
+    <!-- 카운트다운 -->
+    <div id="countDown">
+        <div id="countDown_info">카운트다운</div>
+        <div id="countDown_num">
+            <div class="time">
+                <span id="d-day-hour">00</span>
+                <span class="col">:</span>
+                <span id="d-day-min">00</span>
+                <span class="col">:</span>
+                <span id="d-day-sec">00</span>
+              </div>
+        </div>
+        <img id="xBt" src="../src/icon/cancelBt_red.svg">
+    </div>
+        <!-- 코스 목록 -->
+        <div id="course_name"></div>
+        <div id="detail_course_list"></div>
+    </div>
+
+     <!--모달-->
+     <div class="modal">
+        <div id="mdImg">
+            <img src="../src/img/modal.svg">
+            <img id="mdObt" src="../src/img/modal_OBt.svg">
+            <img id="mdXbt" src="../src/img/modal_XBt.svg">
+        </div>
+    </div>
+
+
+
+<!--JavaScript-->
+    <script>
+        // 모달버튼
+        const modal = document.querySelector('.modal');
+        const btnOpenPopup = document.querySelector('#xBt');
+        const btnClosePopup = document.querySelector('#mdXbt');
+
+  
+        btnOpenPopup.addEventListener('click', () => {
+            modal.style.display = 'block';
+        });
+
+        btnClosePopup.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        $("#header_img").on("click", function(){
+            window.location.href = "index.html";
+        })
+    </script>
+</body>
+</html>

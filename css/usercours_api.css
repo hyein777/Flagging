@@ -1,0 +1,308 @@
+li {
+    list-style: none;
+}
+
+.map_wrap,
+.map_wrap * {
+    margin: 0;
+    padding: 0;
+    font-family: 'Malgun Gothic', dotum, '돋움', sans-serif;
+    font-size: 12px;
+}
+.map{
+    width: 100%;
+    height: 37vh;
+}
+
+.map_wrap {
+    position: relative;
+    width: 100%;
+    height: 37vh;
+}
+
+#category {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    border-radius: 5px;
+    border: 1px solid #909090;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+    background: #fff;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#category li {
+    float: left;
+    list-style: none;
+    width: 50px;
+    border-right: 1px solid #acacac;
+    padding: 6px 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: 'Pretendard';
+    font-size: 8px;
+    font-weight: bold;
+}
+
+#category li.on {
+    background: #eee;
+}
+
+#category li:last-child {
+    margin-right: 0;
+    border-right: 0;
+}
+
+#category li span {
+    display: block;
+    margin: 0 auto 3px;
+    width: 27px;
+    height: 28px;
+}
+
+#category li .tourist {
+    background: url(../src/usercourse/tour-g.png);
+    background-size: cover;
+}
+
+#category li .restaurant {
+    background: url(../src/usercourse/food-g.png);
+    background-size: cover;
+}
+
+#category li .lodging {
+    background: url(../src/usercourse/stay-g.png);
+    background-size: cover;
+}
+
+#category li .cafe {
+    background: url(../src/usercourse/cafe-g.png);
+    background-size: cover;
+}
+
+#category li .cultural_facilities {
+    background: url(../src/usercourse/cultural-g.png);
+    background-size: cover;
+}
+
+#category li.on .tourist {
+    background: url(../src/usercourse/tour.png);
+    background-size: cover;
+}
+
+#category li.on .restaurant {
+    background: url(../src/usercourse/food.png);
+    background-size: cover;
+}
+
+#category li.on .lodging {
+    background: url(../src/usercourse/stay.png);
+    background-size: cover;
+}
+
+#category li.on .cafe {
+    background: url(../src/usercourse/cafe.png);
+    background-size: cover;
+}
+
+#category li.on .cultural_facilities {
+    background: url(../src/usercourse/cultural.png);
+    background-size: cover;
+}
+
+.placeinfo_wrap {
+    position: absolute;
+    bottom: 28px;
+    left: -114px;
+    width: 235px;
+}
+
+.placeinfo {
+    position: relative;
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    background:url(../src/img/popupbg_t.svg);
+}
+.popup_bg0 .title{
+    background: url(../src/img/popup_bg0.svg);
+    background-size: cover;
+}
+.popup_bg1 .title{
+    background: url(../src/img/popup_bg1.svg);
+    background-size: cover;
+}
+.popup_bg2 .title{
+    background: url(../src/img/popup_bg2.svg);
+    background-size: cover;
+}
+.popup_bg3 .title{
+    background: url(../src/img/popup_bg3.svg);
+    background-size: cover;
+}
+.popup_bg4 .title{
+    background: url(../src/img/popup_bg4.svg);
+    background-size: cover;
+}
+
+.placeinfo:nth-of-type(n) {
+    border: 0;
+    box-shadow: 0px 5px 10px #888;
+}
+
+.placeinfo_wrap .after {
+    content: '';
+    position: relative;
+    margin-left: -12px;
+    left: 50%;
+    width: 22px;
+    height: 12px;
+    background: url(../src/img/popupbg_b.svg);
+    background-repeat: no-repeat;
+}
+
+.placeinfo a,
+.placeinfo a:hover,
+.placeinfo a:active {
+    color: #fff;
+    text-decoration: none;
+}
+
+.placeinfo #overlay_info{
+    display: flex;
+}
+.placeinfo #overlay_info #overlay_img{
+    width: 80px;
+    height: 80px;
+    margin: 8px 4px 0 8px;
+}
+
+.placeinfo #overlay_info #overlay_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+
+.placeinfo #overlay_info #overlay_text{
+    width: 131px;
+    display: flex;
+    flex-direction: column;
+    margin: 4px 8px 0 4px;
+}
+
+.placeinfo a,
+.placeinfo span {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.placeinfo span {
+    margin: 5px 5px 0 5px;
+    cursor: default;
+    font-size: 13px;
+}
+
+.placeinfo .title {
+    font-weight: bold;
+    font-size: 15px;
+    padding-left: 46px;
+    line-height: 34px;
+    color: #fff;
+    position: relative;
+}
+
+.placeinfo .title .place_name{
+    width: 70%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: 'Pretendard';
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.placeinfo .popup_bookmark{
+    width: 18px;
+    height: 17px;
+    background: url(../src/icon/bookmark_g.svg);
+    position: absolute;
+    right: 40px;
+    top: 7px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.placeinfo .popup_close{
+    width: 18px;
+    height: 18px;
+    background: url(../src/icon/close.svg);
+    position: absolute;
+    right: 14px;
+    top: 7px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.placeinfo .roadad{
+    height: 17px;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-weight: 650;
+}
+
+.placeinfo .tel {
+    color: #0f7833;
+    height: 17px;
+    font-family: 'Pretendard';
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.placeinfo .jibun {
+    color: #999;
+    font-size: 11px;
+    margin-top: 0;
+    height: 15px;
+    font-family: 'Pretendard';
+}
+
+#user_location {
+    position: absolute;
+    bottom: 22px;
+    right: 40px;
+    z-index: 2;
+    background: white;
+    color: black;
+    border: 1px solid rgb(226, 226, 226);
+    font-weight: bolder;
+    border-radius: 3px;
+    /* width: 100px; */
+    text-align: center;
+    padding: 3px;
+}
+
+.placeinfo #linkbtn {
+    border: none;
+    margin: 4px 20px 0 20px;
+    background: white;
+    padding: 3px 19px;
+    border-radius: 10px;
+    font-family: 'Pretendard';
+    font-size: 15px;
+    font-weight: 650;
+}
+
+.placeinfo #linkbtn a {
+    color: black;
+}
+
+/* .custom_zoomcontrol {position:absolute;bottom:50px;right:20px;width:36px;height:80px;overflow:hidden;z-index:1;background-color:#f5f5f5;} 
+.custom_zoomcontrol span {display:block;width:36px;height:40px;text-align:center;cursor:pointer;}     
+.custom_zoomcontrol span img {width:15px;height:15px;padding:12px 0;border:none;}             
+.custom_zoomcontrol span:first-child{border-bottom:1px solid #bfbfbf;}       */

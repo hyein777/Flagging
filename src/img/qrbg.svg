@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="320.567" height="135.488" viewBox="0 0 320.567 135.488">
+  <defs>
+    <filter id="패스_107">
+      <feOffset dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g data-type="innerShadowGroup">
+    <path id="패스_107-2" data-name="패스 107" d="M2717-479.648v135.488h320.567Z" transform="translate(-2717 479.648)" fill="#000030"/>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#패스_107)">
+      <path id="패스_107-3" data-name="패스 107" d="M2717-479.648v135.488h320.567Z" transform="translate(-2717 479.65)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

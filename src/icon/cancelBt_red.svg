@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="챌린지취소" transform="translate(-276 -260)">
+    <rect id="사각형_62" data-name="사각형 62" width="44" height="44" transform="translate(276 260)" fill="rgba(255,207,0,0)"/>
+    <g id="그룹_188" data-name="그룹 188">
+      <rect id="사각형_91" data-name="사각형 91" width="28" height="28" transform="translate(284 268)" fill="#fff" opacity="0"/>
+      <g id="그룹_77" data-name="그룹 77" transform="translate(143.64 -93.112)">
+        <g id="그룹_78" data-name="그룹 78">
+          <rect id="사각형_63" data-name="사각형 63" width="22" height="4" rx="2" transform="matrix(0.695, 0.719, -0.719, 0.695, 148.157, 365.81)" fill="#ff4e00"/>
+          <rect id="사각형_65" data-name="사각형 65" width="22" height="4" rx="2" transform="matrix(-0.695, 0.719, -0.719, -0.695, 163.439, 368.589)" fill="#ff4e00"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>usercourse</title>
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="../css/h_usercourse.css">
+    <link rel="stylesheet" href="../css/usercours_api.css">
+    <link rel="stylesheet" href="../css/font.css">
+    
+    <!-- 20220610_yhlee 닷홈 주소 및 토근을 팀원에 맞게 적용 및 필요한 공통 함수 선언을 위해 추가 -->
+    <script src="../js/util_Function.js"></script>
+    <script src="../js/php.js"></script>
+    <script src="../js/usercourse_api.js" defer></script>
+</head>
+ 
+<body>
+    <!-- 상단바 -->
+    <header>
+        <div id="header_img">
+            <img id="back" src="../src/icon/backBt_white.svg" alt="'backbt">
+        </div>
+        <div id="header_title">나만의 코스 만들기</div>
+    </header>
+
+    <!-- 지도 삽입 -->
+    <div class="map">
+        <div class="map_wrap">
+            <div id="map" style="width:100%;height:100%;position:relative;overflow:hidden;"></div>
+            <ul id="category">
+                <li id="AT4" data-order="0">
+                    <span class="category_bg tourist"></span>
+                    관광명소
+                </li>
+                <li id="FD6" data-order="1">
+                    <span class="category_bg restaurant"></span>
+                    음식점
+                </li>
+                <li id="AD5" data-order="2">
+                    <span class="category_bg lodging"></span>
+                    숙박
+                </li>
+                <li id="CE7" data-order="3">
+                    <span class="category_bg cafe"></span>
+                    카페
+                </li>
+                <li id="CT1" data-order="4">
+                    <span class="category_bg cultural_facilities"></span>
+                    문화시설
+                </li>
+            </ul>
+            <!-- 지도 확대, 축소 컨트롤 div 입니다
+                <div class="custom_zoomcontrol radius_border"> 
+                  <span id="qwe1"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_plus.png" alt="확대"></span>  
+                  <span id="qwe2"><img src="https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/ico_minus.png" alt="축소"></span>
+              </div> -->
+            <button id="user_location"><img src="../src/usercourse/user-location-fill.svg" alt="user_location"></button>
+        </div>
+        <!-- 선택한 여행 코스 -->
+        <div id="choiceCourse">
+            <p>선택한 여행 코스</p>
+        </div>
+
+        <!-- 선택한 여행 코스 종류 -->
+        <input id="courseName" type="text" placeholder="코스의 이름을 정하세요.">
+        <div id="checklist"></div>
+        <div id="choiceCourse_list">
+            <button id='savebt'>저장하기</button>
+        </div>
+        <div class="overlay_img"></div>
+</body>
+
+</html>

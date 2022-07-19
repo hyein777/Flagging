@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="200" height="167.436" viewBox="0 0 200 167.436">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="합치기_8" data-name="합치기 8" d="M94.928,164.672,72.545,135.237c-.059-.078-.117-.157-.173-.237H23A23,23,0,0,1,0,112V23A23,23,0,0,1,23,0H177a23,23,0,0,1,23,23v89a23,23,0,0,1-23,23H128.628c-.056.079-.113.159-.173.237l-22.383,29.435a7,7,0,0,1-11.144,0Z" transform="translate(993 -729)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_324" data-name="그룹 324" transform="translate(-60 -170.282)">
+    <g id="그룹_301" data-name="그룹 301" transform="translate(-1163 901.282)">
+      <path id="합치기_9" data-name="합치기 9" d="M94.928,164.672,72.545,135.237c-.059-.078-.117-.157-.173-.237H23A23,23,0,0,1,0,112V23A23,23,0,0,1,23,0H177a23,23,0,0,1,23,23v89a23,23,0,0,1-23,23H128.628c-.056.079-.113.159-.173.237l-22.383,29.435a7,7,0,0,1-11.144,0Z" transform="translate(1223 -731)" fill="#238cfa"/>
+      <g id="마스크_그룹_19" data-name="마스크 그룹 19" transform="translate(230 -2)" opacity="0.14" clip-path="url(#clip-path)">
+        <circle id="타원_22" data-name="타원 22" cx="130" cy="130" r="130" transform="translate(912 -871)" fill="#fff"/>
+      </g>
+    </g>
+    <text id="아래_상자를_터치해주세요_" data-name="아래 상자를
+터치해주세요!" transform="translate(160.5 228)" fill="#fff" font-size="24" font-family="EliceDigitalBaeum-Bd, Elice DigitalBaeum" letter-spacing="0.05em"><tspan x="-60.3" y="0">아래 상자를</tspan><tspan fill="#000070"><tspan x="-73.296" y="35">터치</tspan><tspan y="35" fill="#fff">해주세요!</tspan></tspan></text>
+  </g>
+</svg>

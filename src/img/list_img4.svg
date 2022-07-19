@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="291.941" height="57.134" viewBox="0 0 291.941 57.134">
+  <defs>
+    <filter id="사각형_83" x="0" y="0" width="291.941" height="57.134" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <path id="패스_115" data-name="패스 115" d="M11.528,0H53.361l-25.7,39.194H0V11.528A11.528,11.528,0,0,1,11.528,0Z" transform="translate(1610 767.069)" fill="#64c37d"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_344" data-name="그룹 344" transform="translate(-1264.03 -1142.774)">
+    <g transform="matrix(1, 0, 0, 1, 1264.03, 1142.77)" filter="url(#사각형_83)">
+      <rect id="사각형_83-2" data-name="사각형 83" width="273.941" height="39.134" rx="9" transform="translate(9 6)" fill="#fff"/>
+    </g>
+    <path id="패스_32" data-name="패스 32" d="M811.007,524.13H790.849s-7.72-.632-7.854-8.619,0-22.828,0-22.828.4-7.554,7.854-7.687,45.665,0,45.665,0Z" transform="translate(490.034 663.778)" fill="#64c37d"/>
+    <g id="마스크_그룹_14" data-name="마스크 그룹 14" transform="translate(-336.31 381.646)" clip-path="url(#clip-path)">
+      <g id="government-fill" transform="translate(1616.726 770.527)">
+        <path id="패스_113" data-name="패스 113" d="M0,0H42.348V42.348H0Z" fill="none"/>
+        <path id="패스_114" data-name="패스 114" d="M2.724,28.88V11.087H1V7.852H6.173V4.617A1.674,1.674,0,0,1,7.9,3H32.04a1.674,1.674,0,0,1,1.724,1.617V7.852h5.173v3.235H37.213V28.88h1.724v3.235H1V28.88Zm18.969,0V17.557H18.244V28.88Zm-8.622,0V17.557H9.622V28.88Zm17.244,0V17.557H26.866V28.88ZM9.622,6.235V7.852H30.315V6.235Z" transform="translate(1.206 3.617)" fill="#deffc7"/>
+      </g>
+    </g>
+  </g>
+</svg>
